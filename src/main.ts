@@ -8,7 +8,7 @@ async function run(): Promise<void> {
     const other = core.getBooleanInput('other')
 
     flag === true ? core.info('flag is true') : core.info('flag is false')
-    other === true ? core.info('flag is true') : core.info('flag is false')
+    other === true ? core.info('other is true') : core.info('other is false')
 
     core.debug(`Waiting ${ms} milliseconds ...`) // debug is only output if you set the secret `ACTIONS_STEP_DEBUG` to true
 
