@@ -19,11 +19,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: ./
+      - uses: alehechka/typescript-action@main
         with:
           milliseconds: 1000
 
-      - uses: ./
+      - uses: alehechka/typescript-action@main
         with:
           milliseconds: 500
           flag: false
+          other: false
