@@ -6,6 +6,10 @@ inputs:
     required: true
     description: 'input description here'
     default: 'default value if applicable'
+  flag: 
+    required: true
+    description: 'Boolean flag'
+    default: 'true'
 runs:
   using: 'node12'
   main: 'dist/index.js'

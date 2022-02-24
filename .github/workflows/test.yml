@@ -22,3 +22,8 @@ jobs:
       - uses: ./
         with:
           milliseconds: 1000
+
+      - uses: ./
+        with:
+          milliseconds: 500
+          flag: false
